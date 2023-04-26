@@ -1,0 +1,480 @@
+@font-face {
+  font-family: myFont;
+  src: url(Poppins-Medium.ttf);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: none;
+  font-family: "Netflix Sans", " Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  overflow-x: hidden;
+}
+.signin {
+  background-color: #e50914;
+  font-size: 17px;
+  font-weight: 400;
+  margin-top: 0.5rem;
+  line-height: normal;
+  padding: 7px 17px;
+  border-radius: 3px;
+  margin-top: 8px;
+  margin-bottom: 7px;
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
+    sans-serif;
+
+  position: relative;
+  top: -80px;
+  left: 90%;
+
+  color: rgb(255, 255, 255);
+  width: 90px;
+  height: 40px;
+
+  cursor: pointer;
+}
+.h1 {
+  height: 100px;
+  width: 160px;
+  position: relative;
+  top: 10px;
+  left: 40px;
+  font-size: 50px;
+  color: rgba(230, 18, 18, 0.904);
+  font-weight: bold;
+}
+.intro {
+  height: 100vh;
+
+  background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/e89c9679-2f5f-491d-924c-c58924a8ee4b/4934d81e-fd30-44e4-8532-34e4f51f0289/KE-en-20221121-popsignuptwoweeks-perspective_alpha_website_small.jpg");
+  background-size: cover;
+  background-color: rgb(0, 0, 0, 0.4);
+  /* overflow-x: hidden; */
+}
+.intro p {
+  text-align: center;
+
+  color: rgb(255, 255, 255);
+}
+.p1 {
+  position: relative;
+  top: 17%;
+  justify-content: center;
+  text-align: center;
+  font-size: 55px;
+  font-weight: Medium;
+}
+.p2 {
+  position: relative;
+  top: 18%;
+  justify-content: center;
+  text-align: center;
+  font-size: 55px;
+  font-weight: Medium;
+}
+.p3 {
+  position: relative;
+  top: 19%;
+  font-size: 30px;
+  font-weight: Medium;
+  padding: 20px;
+}
+.p4 {
+  position: relative;
+  top: 21%;
+  font-size: 22px;
+}
+.get {
+  position: relative;
+  left: 24.6%;
+  top: 25%;
+  height: 60px;
+  width: 200px;
+  justify-content: center;
+  text-align: center;
+  background: rgba(255, 0, 0, 0.89);
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.884);
+  cursor: pointer;
+  transition: 0.1s;
+  font-size: 20px;
+  border: 1px solid gray;
+}
+.get:hover {
+  background-color: rgb(255, 0, 0);
+}
+input {
+  padding: 0px 10px;
+  position: relative;
+  left: 25%;
+  top: 25%;
+  height: 59px;
+  width: 450px;
+
+  /* padding:10px 10px; */
+  font-size: 17px;
+  border: 1px solid gray;
+  font-weight: Medium;
+}
+hr {
+  height: 9px;
+  background: rgba(0, 0, 0, 0.801);
+}
+.prt2 {
+  background: black;
+  height: 80vh;
+}
+.prt2 p {
+  position: relative;
+  left: 7%;
+  color: rgb(255, 255, 255);
+}
+.p5 {
+  position: relative;
+  top: 29.5%;
+  font-weight: bold;
+
+  font-size: 55px;
+}
+.p6 {
+  position: relative;
+  top: 30%;
+  font-size: 30px;
+}
+.p7 {
+  position: relative;
+  top: 30%;
+  font-size: 30px;
+}
+.p8 {
+  position: relative;
+  top: 30%;
+  font-size: 30px;
+  left: 7%;
+}
+.if {
+  position: relative;
+  left: 55%;
+  border-left: 1px #fff;
+  border-bottom: 1px #fff;
+  height: 400px;
+  width: 500px;
+  bottom: 120px;
+}
+.prt3 {
+  height: 80vh;
+  width: 100vw;
+  background: black;
+}
+.prt4 {
+  width: 100vw;
+  height: 40vh;
+  background: black;
+}
+.mobile {
+  position: relative;
+  top: 12%;
+  left: 60px;
+  height: 450px;
+  width: 550px;
+}
+.p9 {
+  position: relative;
+  bottom: 48%;
+  left: 60%;
+  font-size: 45px;
+  font-weight: Medium;
+  color: #fff;
+}
+.p10 {
+  position: relative;
+  bottom: 40%;
+  left: 60%;
+  font-size: 25px;
+  font-weight: Medium;
+  color: #fff;
+}
+.p11 {
+  position: relative;
+  left: 10%;
+  top: 22%;
+  font-size: 60px;
+  font-weight: Medium;
+  color: #fff;
+}
+.p12 {
+  position: relative;
+  left: 10%;
+  top: 23%;
+  font-size: 35px;
+  font-weight: Medium;
+  color: #fff;
+}
+.prt5 {
+  background: black;
+  height: 80vh;
+  width: 100vw;
+}
+.kids {
+  position: relative;
+  left: 13%;
+  top: 14%;
+  height: 400px;
+  width: 500px;
+}
+.p13 {
+  position: relative;
+  left: 50%;
+  bottom: 32%;
+  color: #fff;
+  font-size: 60px;
+  font-weight: Medium;
+}
+.p14 {
+  position: relative;
+  left: 50%;
+  bottom: 32%;
+  color: #fff;
+  font-size: 30px;
+  font-weight: Medium;
+}
+.prt6 {
+  height: 80vh;
+  width: 100vw;
+  background: black;
+}
+.p15 {
+  position: relative;
+  top: 15%;
+  left: 10%;
+  font-size: 65px;
+  font-weight: Medium;
+  color: #fff;
+}
+.mob {
+  position: relative;
+  height: 400px;
+  width: 550px;
+  left: 55%;
+  bottom: 50%;
+}
+.p16 {
+  position: relative;
+  left: 10%;
+  top: 20%;
+  color: #fff;
+  font-size: 35px;
+  font-weight: Medium;
+}
+.p17 {
+  position: relative;
+  left: 10%;
+  top: 25%;
+  color: #fff;
+  font-size: 35px;
+  font-weight: Medium;
+}
+.sq {
+  position: relative;
+  width: 350px;
+  height: 100px;
+  border-radius: 0.75em;
+  background: #fff;
+  bottom: 45%;
+  left: 10%;
+  border: 3px solid gray;
+  background: black;
+}
+.sqp {
+  position: relative;
+  left: 28%;
+  bottom: 50%;
+  font-size: 20px;
+  font-weight: lighter;
+  align-items: center;
+  color: #fff;
+  justify-content: center;
+}
+.sqp1 {
+  position: relative;
+  left: 28%;
+  bottom: 40%;
+  font-size: 17px;
+  font-weight: lighter;
+  align-items: center;
+  color: rgb(25, 25, 231);
+  justify-content: center;
+}
+.strange {
+  height: 80px;
+  width: 60px;
+  position: relative;
+  top: 10%;
+  left: 5%;
+}
+.prt7 {
+  background: black;
+  width: 100vw;
+  height: 140vh;
+}
+.f {
+  position: absolute;
+  color: #fff;
+  font-size: 40px;
+
+  left: 30%;
+}
+.hidden {
+  display: none;
+}
+.open {
+  position: relative;
+  left: 21%;
+  top: 10%;
+  width: 800px;
+  height: 80px;
+
+  display: grid;
+  place-items: center;
+  font-size: 30px;
+  color: #fff;
+  background: rgb(49, 49, 49);
+  margin: 10px;
+}
+.it {
+  position: relative;
+  left: 21%;
+  top: 12%;
+  display: hidden;
+  margin-bottom: 5px;
+
+  justify-content: center;
+  align-items: center;
+  flex-direction: end;
+  color: #fff;
+  background: rgb(48, 47, 47);
+  font-size: 30px;
+  width: 800px;
+  height: 250px;
+  margin: 10px;
+}
+button {
+  position: relative;
+  background: none;
+  font-size: 70px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  left: 50%;
+  font-weight: light;
+}
+
+nav {
+  padding: 0px 20px;
+}
+.sign2 {
+  position: relative;
+  top: 15%;
+  left: 14%;
+  height: 100px;
+  width: 800px;
+}
+.sign2 p {
+  position: relative;
+  bottom: 20%;
+  left: 25%;
+  color: #fff;
+}
+footer {
+  height: 60vh;
+  width: 100vw;
+  background: black;
+  list-style: none;
+  color: gray;
+}
+footer a {
+  text-decoration: none;
+  color: gray;
+}
+.links1 {
+  width: 200px;
+  height: 225px;
+  position: relative;
+  left: 17%;
+  top: 20%;
+}
+.links1 ul li {
+  list-style: none;
+  padding: 10px;
+}
+.links2 {
+  width: 200px;
+  height: 180px;
+  position: relative;
+  left: 35%;
+  bottom: 25%;
+}
+.links2 ul li {
+  list-style: none;
+  padding: 10px;
+}
+.links3 {
+  width: 200px;
+  height: 180px;
+  position: relative;
+  left: 50%;
+  bottom: 69%;
+}
+.links3 ul li {
+  padding: 10px;
+  list-style: none;
+}
+.links4 {
+  width: 200px;
+  height: 180px;
+  position: relative;
+  left: 65%;
+  bottom: 111%;
+}
+.links4 ul li {
+  list-style: none;
+  padding: 10px;
+}
+footer a:hover {
+  text-decoration: underline;
+}
+.btn {
+  font-weight: lighter;
+}
+video {
+  position: relative;
+  left: 25.8%;
+  height: 460px;
+  width: 368px;
+  bottom: 100px;
+}
+.form {
+  width: 400px;
+  height: 400px;
+  background: rgb(247, 245, 245);
+  position: relative;
+  left: 30%;
+  top: -290px;
+  border-radius: 7px;
+
+  place-items: center;
+}
+.form input {
+  width: 240px;
+  height: 50px;
+}
+.form input [checkbox] {
+  width: 7px;
+  height: 50px;
+}

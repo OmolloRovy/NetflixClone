@@ -1,2 +1,2 @@
-# NetflixClone
-This is an implementation of a clone of the netflix tvs and series app.
+# Netflix-Clone
+This is a clone of the Netflix movies live streaming giant in which i was trying to come up with the design of user interface of the website.
